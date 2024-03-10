@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.app{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+/* Styling of header */
+
+
+.header{
+  border: 2px solid black;
+  height: 140px;
+  background-color: rgb(82, 29, 115);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.abhi{
+  height: 120px;
+  border-radius: 100px;
+  margin-left: 40px;
+}
+
+.header input{
+  height: 40px;
+  width: 25%;
+  font-size: 20px;
+  font-style: oblique;
+  border-radius: 5px;
+}
+
+.header button{
+  height: 50px;
+  width: 120px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+
+.section2{
+  background-image: linear-gradient(rgb(164, 114, 164),white);
+
+}
+
+.topsearch{
+  border: 3px solid rgb(99, 28, 99);
+  border-radius: 10px;
+  width: 17%;
+  background-color: rgba(240, 240, 240, 0.582);
+  text-align: center;
+  position: relative;
+  top: 90px;
+  left: 100px;
+  padding: 5px;
+}
+
+
+/* Styleing of fetched books */
+
+.books{
+  border: 2px solid yellow;
+}
+
+.fetch-img{
+  border: 3px solid rgb(99, 28, 99);
+  background-color: rgba(240, 240, 240, 0.582);
+  box-shadow: 0 6px 20px 0 rgb(139, 106, 167), 0 6px 20px 0 rgb(139, 111, 163);
+  border-radius: 10px;
+  width: 110%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 16px;
+}
+
+.section3{
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  /* margin-left: 150px; */
+  padding-left: 130px;
+  width: 80%;
+  
+}
+
+.book-img{
+  height: 230px;
+  width: 150px;
+  border: 1px solid rgb(99, 28, 99);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.describe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.rating , .title{
+  font-size: 17px;
+  font-weight: bold;
+}
+
